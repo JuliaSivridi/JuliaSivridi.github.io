@@ -248,6 +248,15 @@ a {
   background-color: var(--secondary);
   color: var(--secondary-foreground);
   border: 1px solid var(--border);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.stack-tag.active {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-color: var(--primary);
 }
 
 /* ===== Project Card Image ===== */
@@ -382,10 +391,17 @@ a {
   font-weight: 500;
   padding: 3px 10px;
   border-radius: 999px;
-  background-color: var(--accent);
-  color: var(--accent-foreground);
+  background-color: var(--secondary);
+  color: var(--muted-foreground);
   border: 1px solid var(--border);
   white-space: nowrap;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.tag.active {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-color: var(--primary);
 }
 
 .card-links {

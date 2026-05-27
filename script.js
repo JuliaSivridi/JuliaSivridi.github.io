@@ -70,6 +70,19 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 
 applyLanguage('en');
 
+// Tech Stack filter
+document.querySelectorAll('.stack-tag').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const tech = chip.textContent.trim().toLowerCase();
+    const isActive = chip.classList.toggle('active');
+    document.querySelectorAll('.card-tags .tag').forEach(tag => {
+      if (tag.textContent.trim().toLowerCase() === tech) {
+        tag.classList.toggle('active', isActive);
+      }
+    });
+  });
+});
+
 // Lightbox
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
