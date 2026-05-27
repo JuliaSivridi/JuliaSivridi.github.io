@@ -68,6 +68,8 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', () => applyLanguage(btn.dataset.lang));
 });
 
+applyLanguage('en');
+
 // Lightbox
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
