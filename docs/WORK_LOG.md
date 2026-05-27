@@ -1,5 +1,22 @@
 # Work Log
 
+## 2026-05-27 — Stage 2: Content & visual improvements
+
+**Done:**
+- Added Tech Stack section (between Hero and Projects) with 3 groups: Languages, Frameworks & Libraries, Platforms & Storage.
+- Added nav link for Stack section.
+- Added screenshot image slots (`.card-img`) to all 6 project cards — gracefully hidden via `onerror` until Julia places images in `images/` folder.
+- Added specific tech tags per card based on tech specs (Python · aiogram · PostgreSQL · Docker for Old Gamez, etc.).
+- Rewrote all 6 project descriptions with accurate detail from tech specs.
+- Updated Finnish translations for all new strings and descriptions.
+- Fixed copyright year 2025 → 2026.
+- Tightened mobile nav CSS (3 links now fit at 375px).
+
+**Pending:**
+- Julia to place screenshot images in `images/` folder (oldgamez.png, purefeed.png, words.png, tasks.png, sudoku.png, films.png).
+
+---
+
 ## 2026-05-25 — Stage 1: Initial build
 
 **Done:**

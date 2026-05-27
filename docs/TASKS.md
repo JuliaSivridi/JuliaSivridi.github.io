@@ -9,8 +9,18 @@
 - [x] Place favicon.png in project root
 - [x] Verify layout: desktop, mobile, dark mode
 
+## Stage 2 — Content & visual improvements
+
+- [x] Add Tech Stack section (between Hero and Projects)
+- [x] Add nav link for Stack section
+- [x] Add screenshot image slots to project cards (images/ folder, onerror collapse)
+- [x] Add specific tech tags per project card (Python, aiogram, React, Kotlin, etc.)
+- [x] Rewrite project descriptions based on tech specs
+- [x] Update Finnish translations for all new strings
+- [x] Fix copyright year 2025 → 2026
+- [ ] Add screenshots to images/ folder (Julia provides)
+
 ## Backlog
 
-- [ ] Set up GitHub repository JuliaSivridi/JuliaSivridi.github.io and deploy
 - [ ] Test on real device (Android)
 - [ ] Cross-browser check (Firefox, Safari)

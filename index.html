@@ -16,6 +16,7 @@
       <a href="#" class="site-logo">Julia Sivridi</a>
       <nav class="site-nav">
         <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+        <a href="#stack" class="nav-link" data-i18n="nav_stack">Stack</a>
         <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
       </nav>
       <div class="lang-toggle">
@@ -38,6 +39,54 @@
       </div>
     </section>
 
+    <!-- Tech Stack -->
+    <section id="stack" class="stack-section">
+      <div class="container">
+        <h2 class="section-heading" data-i18n="stack_heading">Tech Stack</h2>
+        <div class="stack-groups">
+
+          <div class="stack-group">
+            <p class="stack-group-label" data-i18n="stack_languages">Languages</p>
+            <div class="stack-tags">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">TypeScript</span>
+              <span class="stack-tag">Kotlin</span>
+              <span class="stack-tag">HTML · CSS</span>
+            </div>
+          </div>
+
+          <div class="stack-group">
+            <p class="stack-group-label" data-i18n="stack_frameworks">Frameworks &amp; Libraries</p>
+            <div class="stack-tags">
+              <span class="stack-tag">React</span>
+              <span class="stack-tag">Jetpack Compose</span>
+              <span class="stack-tag">aiogram</span>
+              <span class="stack-tag">FastAPI</span>
+              <span class="stack-tag">Telethon</span>
+              <span class="stack-tag">Tailwind CSS</span>
+              <span class="stack-tag">Vite</span>
+            </div>
+          </div>
+
+          <div class="stack-group">
+            <p class="stack-group-label" data-i18n="stack_platforms">Platforms &amp; Storage</p>
+            <div class="stack-tags">
+              <span class="stack-tag">PWA</span>
+              <span class="stack-tag">Android</span>
+              <span class="stack-tag">Telegram Bot API</span>
+              <span class="stack-tag">Google Sheets API</span>
+              <span class="stack-tag">PostgreSQL</span>
+              <span class="stack-tag">SQLite</span>
+              <span class="stack-tag">Room</span>
+              <span class="stack-tag">Docker</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- Projects -->
     <section id="projects" class="projects-section">
       <div class="container">
@@ -46,11 +95,18 @@
 
           <!-- Old Gamez -->
           <article class="project-card">
+            <div class="card-img">
+              <img src="images/oldgamez.png" alt="Old Gamez screenshot" loading="lazy" onerror="this.parentElement.style.display='none'">
+            </div>
             <div class="card-body">
               <h3 class="card-title">Old Gamez</h3>
               <p class="card-desc" data-i18n="proj_oldgamez_desc">Telegram bot — a collection of classic mini-games</p>
               <div class="card-tags">
                 <span class="tag" data-i18n="tag_telegram_bot">Telegram Bot</span>
+                <span class="tag">Python</span>
+                <span class="tag">aiogram</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Docker</span>
               </div>
             </div>
             <div class="card-links">
@@ -67,11 +123,18 @@
 
           <!-- Pure Feed -->
           <article class="project-card">
+            <div class="card-img">
+              <img src="images/purefeed.png" alt="Pure Feed screenshot" loading="lazy" onerror="this.parentElement.style.display='none'">
+            </div>
             <div class="card-body">
               <h3 class="card-title">Pure Feed</h3>
               <p class="card-desc" data-i18n="proj_purefeed_desc">Telegram bot — multi-channel feed with ad filtering and unread counter</p>
               <div class="card-tags">
                 <span class="tag" data-i18n="tag_telegram_bot">Telegram Bot</span>
+                <span class="tag">Python</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Telethon</span>
+                <span class="tag">Docker</span>
               </div>
             </div>
             <div class="card-links">
@@ -88,11 +151,16 @@
 
           <!-- Words -->
           <article class="project-card">
+            <div class="card-img">
+              <img src="images/words.png" alt="Words screenshot" loading="lazy" onerror="this.parentElement.style.display='none'">
+            </div>
             <div class="card-body">
               <h3 class="card-title">Words</h3>
               <p class="card-desc" data-i18n="proj_words_desc">PWA — personal vocabulary learning app. Runs in any browser, installs on Android/iOS. No backend — Google Sheets as database.</p>
               <div class="card-tags">
                 <span class="tag">PWA</span>
+                <span class="tag">React</span>
+                <span class="tag">Google Sheets API</span>
               </div>
             </div>
             <div class="card-links">
@@ -109,12 +177,18 @@
 
           <!-- Tasks -->
           <article class="project-card">
+            <div class="card-img">
+              <img src="images/tasks.png" alt="Tasks screenshot" loading="lazy" onerror="this.parentElement.style.display='none'">
+            </div>
             <div class="card-body">
               <h3 class="card-title">Tasks</h3>
               <p class="card-desc" data-i18n="proj_tasks_desc">PWA + Android — personal task manager. Runs in any browser, installs on Android/iOS. No backend — Google Sheets as database.</p>
               <div class="card-tags">
                 <span class="tag">PWA</span>
                 <span class="tag">Android</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Kotlin</span>
+                <span class="tag">Google Sheets API</span>
               </div>
             </div>
             <div class="card-links">
@@ -135,11 +209,16 @@
 
           <!-- Sudoku -->
           <article class="project-card">
+            <div class="card-img">
+              <img src="images/sudoku.png" alt="Sudoku screenshot" loading="lazy" onerror="this.parentElement.style.display='none'">
+            </div>
             <div class="card-body">
               <h3 class="card-title">Sudoku</h3>
               <p class="card-desc" data-i18n="proj_sudoku_desc">Android app — clean, minimal Sudoku</p>
               <div class="card-tags">
                 <span class="tag">Android</span>
+                <span class="tag">Kotlin</span>
+                <span class="tag">Jetpack Compose</span>
               </div>
             </div>
             <div class="card-links">
@@ -156,11 +235,16 @@
 
           <!-- Films -->
           <article class="project-card">
+            <div class="card-img">
+              <img src="images/films.png" alt="Films screenshot" loading="lazy" onerror="this.parentElement.style.display='none'">
+            </div>
             <div class="card-body">
               <h3 class="card-title">Films</h3>
               <p class="card-desc" data-i18n="proj_films_desc">PWA — personal film library tracker. Runs in any browser, installs on Android/iOS. No backend — Google Sheets as database.</p>
               <div class="card-tags">
                 <span class="tag">PWA</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Google Sheets API</span>
               </div>
             </div>
             <div class="card-links">
@@ -204,7 +288,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <span class="footer-copy" data-i18n="footer_copyright">© 2025 Julia Sivridi</span>
+      <span class="footer-copy" data-i18n="footer_copyright">© 2026 Julia Sivridi</span>
     </div>
   </footer>
 
