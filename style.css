@@ -349,6 +349,23 @@ a {
   }
 }
 
+/* ===== Project Group Label ===== */
+.project-group-label {
+  grid-column: 1 / -1;
+  margin: 12px 0 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.project-group-label:first-child {
+  margin-top: 0;
+}
+
 /* ===== Project Card ===== */
 .project-card {
   background-color: var(--card);
